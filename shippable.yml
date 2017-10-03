@@ -2,7 +2,7 @@
 ---
 language: java
 
-jdk: 1.8.0_121
+jdk: openjdk8
 
 after_success:
   - mvn clean cobertura:cobertura
