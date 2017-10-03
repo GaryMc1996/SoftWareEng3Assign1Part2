@@ -1,0 +1,14 @@
+## YAML Template.
+---
+language: java
+
+jdk: oraclejdk8
+
+after_success:
+  - mvn clean cobertura:cobertura
+  - mvn test
+ 
+notifications:
+    email:
+        recipients:
+            -g.mcmahon5@nuigalway.ie

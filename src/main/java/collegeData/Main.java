@@ -15,7 +15,7 @@ import org.joda.time.DateTimeZone;
  *
  * @author I330152
  */
-public class createData {
+public class Main {
     
     public static void main(String args[]){
         Student s1 = new Student("Gary McMahon", 21 , "19/06/1996", 14534653);
