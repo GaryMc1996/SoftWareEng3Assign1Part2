@@ -2,13 +2,13 @@
 ---
 language: java
 
-jdk: oraclejdk8
+jdk: openjdk7
 
 after_success:
   - mvn clean cobertura:cobertura
   - mvn test
- 
+  - java - jar /root/.m2/repository/com/mycompany/SoftWareEng3_Assign1/1.0-SNAPSHOT/SoftWareEng3_Assign1-1.0-SNAPSHOT.jar
 notifications:
     email:
         recipients:
-            -g.mcmahon5@nuigalway.ie
+            - g.mcmahon5@nuigalway.ie
