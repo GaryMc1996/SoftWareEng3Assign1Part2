@@ -6,7 +6,7 @@ jdk: openjdk8
 
 after_success:
     - mvn clean
-    - mvn test 
+    - mvn test -Dtest=testCollegeUserName test
     - mvn package
     
 notifications:
