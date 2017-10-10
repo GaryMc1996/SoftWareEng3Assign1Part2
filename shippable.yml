@@ -13,3 +13,5 @@ notifications:
     email:
         recipients:
             - g.mcmahon5@nuigalway.ie
+            on_success: always
+            on_failure: always
