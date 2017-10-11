@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
 /**
  *
  * @author I330152
- * created another junit test in here so it is called by the mvn test on shippabkkle
+ * created another junit test in here so it is called by the mvn test on shippable
  */
 public class TestUserName {
     
